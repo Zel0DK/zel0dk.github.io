@@ -6,8 +6,8 @@ import Search from '@components/Search';
 function useHead() {
   const { asPath } = useRouter();
   const { frontMatter, title } = useConfig();
-  const url = `localhost:3000/${asPath}`;
-  const description = frontMatter.description || "Test";
+  const url = `https://zel0dk.github.io${asPath}`;
+  const description = frontMatter.description || "Unofficial documentation for Phasmophobia";
 
   return (
     <>
@@ -51,10 +51,11 @@ const config: DocsThemeConfig = {
     </div>
   ),
   project: {
-    link: 'https://github.com/Zel0DK',
+    link: 'https://github.com/Zel0DK/zel0dk.github.io',
   },
+  docsRepositoryBase: 'https://github.com/Zel0DK/zel0dk.github.io/blob/main',
   footer: {
-    text: 'Phasmophobia Docs',
+    text: 'Unofficial documentation for Phasmophobia',
   },
   search: {
     component: <Search />,

@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'localhost:3000',
+  siteUrl: 'https://zel0dk.github.io/',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   outDir: './out',
