@@ -6,7 +6,7 @@ import Search from '@components/Search';
 function useHead() {
   const { asPath } = useRouter();
   const { frontMatter, title } = useConfig();
-  const url = `https://zel0dk.github.io${asPath}`;
+  const url = `https://docs-phasmophobia.vercel.app/${asPath}`;
   const description = frontMatter.description || "Unofficial documentation for Phasmophobia";
 
   return (

@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://zel0dk.github.io/',
+  siteUrl: 'https://docs-phasmophobia.vercel.app/',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   outDir: './out',
